@@ -34,7 +34,7 @@ function SmurfForm(props) {
         value={height}
         onChange={e => handleHeightChange(e.target.value)}
       />
-      <button>Add your Smurf!</button>
+      <button>Add Smurf</button>
     </form>
   );
 }
