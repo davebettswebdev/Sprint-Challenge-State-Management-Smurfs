@@ -25,17 +25,20 @@ button {
 
 .smurf-list {
   display: flex;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
-  justify-content: space-around
+  justify-content: space-between;
+  flex-wrap: wrap
+  
 }
 
 .smurf-card {
   color: white;
   background-color: rgba(0, 162, 208, .8);
-  width: 50%;
+  width: 30%;
   border: solid white 2px;
-  margin: 2%;
+  margin-top: 10px;
+  
 }
 
 
